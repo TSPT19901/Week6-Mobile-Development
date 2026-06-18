@@ -40,7 +40,7 @@ class _FavoriteCardState extends State<FavoriteCard> {
 
   @override
   Widget build(BuildContext context) {
-     final joke = jokes.joketile[widget.index];
+    final joke = jokes.joketile[widget.index];
     return Container(
       decoration: const BoxDecoration(
         border: Border(bottom: BorderSide(width: .5, color: Colors.grey)),
